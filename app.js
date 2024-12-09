@@ -102,7 +102,7 @@ const selectAnswer = (index) => {
     });
 
     document.getElementById("next-btn").disabled = false; // Enable the "Next" button
-}
+}git
 
 // Function for NEXT button
 const nextQuiz = () => {
