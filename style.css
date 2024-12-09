@@ -12,7 +12,8 @@ body {
     min-height: 100vh;
     font-family: 'Courier New', Courier, monospace;
     background-image: url(img/background.jpeg);
-    background-size: contain; /* Ensure the background covers the entire area */
+    background-repeat: no-repeat;
+    background-size: 100% 100%; /* Ensure the background covers the entire area */
 }
 
 #next-btn, #restart-btn {
@@ -31,4 +32,8 @@ body {
     display: none; /* Hide the score section initially */
     font-size: 1.5rem;
     padding: 1rem;
+}
+
+footer {
+    color: whitesmoke;
 }
