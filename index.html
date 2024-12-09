@@ -1,0 +1,58 @@
+<!-- 
+    This is the main HTML structure for the Financial Knowledge Quiz application.
+    The page includes a header with the quiz title, a section for quiz instructions, 
+    a container for the quiz content, and buttons for interacting with the quiz.
+    It also includes a footer with contact information.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="quiz-title">
+        <h1>Financial Knowledge Test</h1>
+        <h6>How Well Do You Know Your Finances?</h6>
+    </header>
+
+    <section id="quiz-container">
+        <section id="quiz-instruction">
+            <p><strong class="text-success">START</strong> to begin</p>
+            <p><strong class="text-warning">NEXT</strong> to move to the next question </p>
+            <p><strong class="text-danger">RESTART</strong> to start over at any time</p>
+        </section>
+
+        <section id="quiz-congrat"></section>
+
+        <section id="quiz-content">
+            <strong><p id="question-text"></p></strong>
+            <div id="answer-text"></div>
+        </section>
+
+        <section id="quiz-score">
+            <P id="score-text"><strong>SCORE</strong></P>
+        </section>
+
+        <section id="quiz-access">
+            <button id="start-btn" class="btn btn-success">START</button>
+            <button id="next-btn" class="btn btn-warning">NEXT</button>
+            <button id="restart-btn" class="btn btn-danger">RESTART</button>
+        </section>        
+    </section>
+
+    <footer id="quiz-copyright">
+        <p>Phone: +60 13-294 3132 | Email: mrullldhm94@gmail.com</p>
+        <p>&copy; 2024 Amirul Adham. All rights reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
